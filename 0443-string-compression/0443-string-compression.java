@@ -21,11 +21,11 @@ class Solution {
             s += count;
             count = 1;
         }
-        System.out.println(s);
+        
         for(int i=0; i<s.length(); i++){
             chars[i] = s.charAt(i);
         }
-        int len = chars.length - s.length();
-        return chars.length - len;
+
+        return s.length();
     }
 }
