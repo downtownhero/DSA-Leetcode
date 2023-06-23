@@ -24,9 +24,9 @@ class Solution {
         int j=0;
 
         for(int i=0; i<=n-k; i++){
-            if(j<i){
+            // if(j<i){
+            // }
                 j=i;
-            }
             while(nge[j] < i+k){
                 j = nge[j];
             }
